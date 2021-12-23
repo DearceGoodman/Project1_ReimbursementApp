@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Reimbursement Page</title>
+</head>
+<body>
+    <h2 class="title">Create Reimbursement Request</h2>
+                    <!-- <form method="POST" name="reimbursementForm"> -->
+                        <h3>First Name</h3>
+                        <div class="employeeInput">
+                            <input  type="text" name="firstName" id="firstName" placeholder="first name" >
+                        </div>
+                        <h3>Last Name</h3>
+                        <div class="employeeInput">
+                            <input  type="text" name="lastName" id="lastName" placeholder="last name" >
+                        </div>
+                        <h3>Employee ID</h3>
+                        <div class="employeeInput">
+                            <input  type="number"  name="employeeId" id="employeeId" placeholder="employee ID" >
+                        </div>
+                        <h3>Request Amount</h3>
+                        <div class="employeeInput">
+                            <input  type="number" name="requestAmount" id="requestAmount" placeholder="request amount" >
+                        </div>
+                        <h3>Employee Comment</h3>
+                        <div class="employeeInput">
+                            <input  type="text" maxlength="150" name="employeeComment" id="employeeComment" placeholder="employee comment" >
+                        </div>
+                        <h3>Request Ticket</h3>
+                        <div class="employeeInput">
+                            <input  name="requestTicket" id="requestTicket" placeholder="null" >
+                        </div>
+                        <h2>For Management Only</h2>
+                        <div class="employeeInput">
+                            <h3>Request Status Decision</h3>
+                            <input  name="requestStatus" id="requestStatus" placeholder="null" >
+                        </div>
+                        <div class="employeeInput">
+                            <h3>Enter Manager's Comments</h3>
+                            <input  name="managerComment" id="managerComment" placeholder="null" >
+                        </div>
+                        <div class="employeeSubmit">
+                            <button type="button" id="submitReimbursement" onclick="sumbitReimbursement()">Submit</button>
+                        </div>
+                        <div class="transfer">
+                            <button type="button" id="transferToEmpDashboard" onclick="transferEmp()">Back To Employee Dashboard</button>
+                        </div>
+                    <!-- </form> -->
+    <script src="../templates/js/create_reimbursement.js"></script>
+    <script>
+        
+        async function transferEmp(){
+        sessionStorage.clear()
+        window.location.href = "employee_dashboard.html"
+        }
+    </script>
+</body>
+</html>

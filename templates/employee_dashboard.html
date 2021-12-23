@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+</head>
+<body>
+    <h1>Login was successful</h1>
+    <label>Welcome to your Employee Dashboard</label>
+    <div id="navigation">
+        <ul>
+          <li><button id="createReimbursement" type="button" onclick="submitReimbursement()">Create Reimbursement Request</button></li>
+          <li><button id="logoutButton" type="button" onclick="logout()">Logout</button></li>
+        </ul>
+      </div>
+    <div>
+        <table id= "reimbursementTable">
+            <thead id="reimbursementHead">
+                <tr>
+                    <th>
+                        First Name
+                    </th>
+                    <th>
+                        Last Name
+                    </th>
+                    <th>
+                        Employee ID
+                    </th>
+                    <th>
+                        Request Amount
+                    </th>
+                    <th>
+                        Employee Comment
+                    </th>
+                    <th>
+                        Request Ticket
+                    </th>
+                    <th>
+                        Request Status
+                    </th>
+                    <th>
+                        Manager Comment
+                    </th>
+                </tr>
+            </thead>
+            <!-- the content of table will generate dynamically -->
+            <tbody id="reimbursementTableBody">
+                <!-- content will be added dynamically-->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/employee_dashboard.js"></script>
+    <script>
+        async function logout(){
+        sessionStorage.clear()
+        window.location.href = "home.html"
+    }
+        async function submitReimbursement(){
+        sessionStorage.clear()
+        window.location.href = "create_reimbursement.html"
+    }
+
+    </script>
+    </body>
+</html>

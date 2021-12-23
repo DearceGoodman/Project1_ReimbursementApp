@@ -1,0 +1,190 @@
+2021-12-22 13:05:53,148 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-22 13:07:01,428 INFO 127.0.0.1 - - [22/Dec/2021 13:07:01] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 13:12:04,946 INFO 127.0.0.1 - - [22/Dec/2021 13:12:04] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 13:14:38,003 INFO 127.0.0.1 - - [22/Dec/2021 13:14:38] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 13:14:40,937 INFO 127.0.0.1 - - [22/Dec/2021 13:14:40] "OPTIONS /employee HTTP/1.1" 200 -
+2021-12-22 13:14:42,140 INFO 127.0.0.1 - - [22/Dec/2021 13:14:42] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 13:24:04,760 INFO 127.0.0.1 - - [22/Dec/2021 13:24:04] "OPTIONS /manager_login HTTP/1.1" 200 -
+2021-12-22 14:00:33,144 INFO 127.0.0.1 - - [22/Dec/2021 14:00:33] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 14:00:33,191 INFO 127.0.0.1 - - [22/Dec/2021 14:00:33] "POST /login HTTP/1.1" 200 -
+2021-12-22 14:00:33,304 INFO 127.0.0.1 - - [22/Dec/2021 14:00:33] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 14:15:27,168 INFO 127.0.0.1 - - [22/Dec/2021 14:15:27] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 14:25:14,053 INFO 127.0.0.1 - - [22/Dec/2021 14:25:14] "OPTIONS /manager_login HTTP/1.1" 200 -
+2021-12-22 14:25:14,098 INFO 127.0.0.1 - - [22/Dec/2021 14:25:14] "POST /manager_login HTTP/1.1" 200 -
+2021-12-22 14:25:14,240 INFO 127.0.0.1 - - [22/Dec/2021 14:25:14] "GET /manager HTTP/1.1" 200 -
+2021-12-22 14:35:44,174 INFO 127.0.0.1 - - [22/Dec/2021 14:35:44] "GET /manager HTTP/1.1" 200 -
+2021-12-22 14:37:21,602 INFO 127.0.0.1 - - [22/Dec/2021 14:37:21] "GET /manager HTTP/1.1" 200 -
+2021-12-22 15:03:38,033 INFO 127.0.0.1 - - [22/Dec/2021 15:03:38] "POST /login HTTP/1.1" 200 -
+2021-12-22 15:03:43,431 INFO 127.0.0.1 - - [22/Dec/2021 15:03:43] "POST /employee HTTP/1.1" 200 -
+2021-12-22 15:45:45,331 INFO 127.0.0.1 - - [22/Dec/2021 15:45:45] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 15:45:45,564 INFO 127.0.0.1 - - [22/Dec/2021 15:45:45] "GET /manager HTTP/1.1" 200 -
+2021-12-22 15:46:46,655 INFO 127.0.0.1 - - [22/Dec/2021 15:46:46] "GET /manager HTTP/1.1" 200 -
+2021-12-22 15:47:04,258 INFO 127.0.0.1 - - [22/Dec/2021 15:47:04] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 15:47:04,408 INFO 127.0.0.1 - - [22/Dec/2021 15:47:04] "GET /manager HTTP/1.1" 200 -
+2021-12-22 16:01:26,497 INFO 127.0.0.1 - - [22/Dec/2021 16:01:26] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 16:02:37,823 INFO 127.0.0.1 - - [22/Dec/2021 16:02:37] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 16:02:50,639 INFO 127.0.0.1 - - [22/Dec/2021 16:02:50] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 17:09:02,204 INFO 127.0.0.1 - - [22/Dec/2021 17:09:02] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 17:10:14,506 INFO 127.0.0.1 - - [22/Dec/2021 17:10:14] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 17:12:17,670 INFO 127.0.0.1 - - [22/Dec/2021 17:12:17] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 17:16:41,443 INFO 127.0.0.1 - - [22/Dec/2021 17:16:41] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 17:17:03,058 INFO 127.0.0.1 - - [22/Dec/2021 17:17:03] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 17:17:03,129 INFO 127.0.0.1 - - [22/Dec/2021 17:17:03] "POST /login HTTP/1.1" 200 -
+2021-12-22 17:17:03,496 INFO 127.0.0.1 - - [22/Dec/2021 17:17:03] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 17:18:05,579 INFO 127.0.0.1 - - [22/Dec/2021 17:18:05] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 19:54:04,944 ERROR Exception on /manager/average/323 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\main.py", line 110, in average_request
+    request_average = employee_service.service_statistics_average_reimbursement(employee_id)
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\service\implementation\reimbursement_service_postgres.py", line 43, in service_statistics_average_reimbursement
+    return mean(reimburse)
+  File "C:\Users\Isassas\AppData\Local\Programs\Python\Python310\lib\statistics.py", line 342, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+2021-12-22 19:54:04,966 INFO 127.0.0.1 - - [22/Dec/2021 19:54:04] "[35m[1mGET /manager/average/323 HTTP/1.1[0m" 500 -
+2021-12-22 19:54:10,459 INFO 127.0.0.1 - - [22/Dec/2021 19:54:10] "[31m[1mGET /manager/average HTTP/1.1[0m" 405 -
+2021-12-22 19:54:25,071 INFO 127.0.0.1 - - [22/Dec/2021 19:54:25] "[31m[1mGET /manager/average HTTP/1.1[0m" 405 -
+2021-12-22 19:54:30,892 ERROR Exception on /manager/average/323 [GET]
+Traceback (most recent call last):
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\main.py", line 110, in average_request
+    request_average = employee_service.service_statistics_average_reimbursement(employee_id)
+  File "C:\Users\Isassas\PycharmProjects\e2e_project_1\service\implementation\reimbursement_service_postgres.py", line 43, in service_statistics_average_reimbursement
+    return mean(reimburse)
+  File "C:\Users\Isassas\AppData\Local\Programs\Python\Python310\lib\statistics.py", line 342, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point
+2021-12-22 19:54:30,894 INFO 127.0.0.1 - - [22/Dec/2021 19:54:30] "[35m[1mGET /manager/average/323 HTTP/1.1[0m" 500 -
+2021-12-22 19:54:36,645 INFO 127.0.0.1 - - [22/Dec/2021 19:54:36] "[31m[1mGET /manager/average HTTP/1.1[0m" 405 -
+2021-12-22 19:54:55,920 INFO 127.0.0.1 - - [22/Dec/2021 19:54:55] "GET /manager HTTP/1.1" 200 -
+2021-12-22 19:55:24,754 INFO 127.0.0.1 - - [22/Dec/2021 19:55:24] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 19:56:32,416 INFO 127.0.0.1 - - [22/Dec/2021 19:56:32] "[33mPATCH /manager/ HTTP/1.1[0m" 404 -
+2021-12-22 19:56:40,107 INFO 127.0.0.1 - - [22/Dec/2021 19:56:40] "[31m[1mPATCH /manager/8 HTTP/1.1[0m" 400 -
+2021-12-22 19:57:08,068 INFO 127.0.0.1 - - [22/Dec/2021 19:57:08] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 19:59:49,375 INFO 127.0.0.1 - - [22/Dec/2021 19:59:49] "POST /employee HTTP/1.1" 200 -
+2021-12-22 19:59:56,219 INFO 127.0.0.1 - - [22/Dec/2021 19:59:56] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:00:06,700 INFO 127.0.0.1 - - [22/Dec/2021 20:00:06] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:00:11,510 INFO 127.0.0.1 - - [22/Dec/2021 20:00:11] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:00:23,560 INFO 127.0.0.1 - - [22/Dec/2021 20:00:23] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:00:55,221 INFO 127.0.0.1 - - [22/Dec/2021 20:00:55] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:01:04,799 INFO 127.0.0.1 - - [22/Dec/2021 20:01:04] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:01:30,852 INFO 127.0.0.1 - - [22/Dec/2021 20:01:30] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:01:36,984 INFO 127.0.0.1 - - [22/Dec/2021 20:01:36] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:01:38,949 INFO 127.0.0.1 - - [22/Dec/2021 20:01:38] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:01:45,466 INFO 127.0.0.1 - - [22/Dec/2021 20:01:45] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:01:53,065 INFO 127.0.0.1 - - [22/Dec/2021 20:01:53] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:02:14,045 INFO 127.0.0.1 - - [22/Dec/2021 20:02:14] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:02:15,370 INFO 127.0.0.1 - - [22/Dec/2021 20:02:15] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:02:19,240 INFO 127.0.0.1 - - [22/Dec/2021 20:02:19] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:02:23,495 INFO 127.0.0.1 - - [22/Dec/2021 20:02:23] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:02:32,365 INFO 127.0.0.1 - - [22/Dec/2021 20:02:32] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:02:34,314 INFO 127.0.0.1 - - [22/Dec/2021 20:02:34] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:13,222 INFO 127.0.0.1 - - [22/Dec/2021 20:03:13] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:14,478 INFO 127.0.0.1 - - [22/Dec/2021 20:03:14] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:18,223 INFO 127.0.0.1 - - [22/Dec/2021 20:03:18] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:26,840 INFO 127.0.0.1 - - [22/Dec/2021 20:03:26] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:31,569 INFO 127.0.0.1 - - [22/Dec/2021 20:03:31] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:36,946 INFO 127.0.0.1 - - [22/Dec/2021 20:03:36] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:58,024 INFO 127.0.0.1 - - [22/Dec/2021 20:03:58] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:03:59,977 INFO 127.0.0.1 - - [22/Dec/2021 20:03:59] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:04,903 INFO 127.0.0.1 - - [22/Dec/2021 20:04:04] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:06,410 INFO 127.0.0.1 - - [22/Dec/2021 20:04:06] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:12,848 INFO 127.0.0.1 - - [22/Dec/2021 20:04:12] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:25,202 INFO 127.0.0.1 - - [22/Dec/2021 20:04:25] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:31,047 INFO 127.0.0.1 - - [22/Dec/2021 20:04:31] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:35,397 INFO 127.0.0.1 - - [22/Dec/2021 20:04:35] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:04:38,400 INFO 127.0.0.1 - - [22/Dec/2021 20:04:38] "POST /employee HTTP/1.1" 200 -
+2021-12-22 20:05:03,330 INFO 127.0.0.1 - - [22/Dec/2021 20:05:03] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 20:05:03,428 INFO 127.0.0.1 - - [22/Dec/2021 20:05:03] "POST /login HTTP/1.1" 200 -
+2021-12-22 20:05:03,539 INFO 127.0.0.1 - - [22/Dec/2021 20:05:03] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 20:07:25,782 INFO 127.0.0.1 - - [22/Dec/2021 20:07:25] "OPTIONS /manager_login HTTP/1.1" 200 -
+2021-12-22 20:07:25,882 INFO 127.0.0.1 - - [22/Dec/2021 20:07:25] "POST /manager_login HTTP/1.1" 200 -
+2021-12-22 20:07:25,992 INFO 127.0.0.1 - - [22/Dec/2021 20:07:25] "GET /manager HTTP/1.1" 200 -
+2021-12-22 20:08:01,170 INFO 127.0.0.1 - - [22/Dec/2021 20:08:01] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:01,306 INFO 127.0.0.1 - - [22/Dec/2021 20:08:01] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:21,431 INFO 127.0.0.1 - - [22/Dec/2021 20:08:21] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:21,611 INFO 127.0.0.1 - - [22/Dec/2021 20:08:21] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:21,719 INFO 127.0.0.1 - - [22/Dec/2021 20:08:21] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:21,887 INFO 127.0.0.1 - - [22/Dec/2021 20:08:21] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:21,914 INFO 127.0.0.1 - - [22/Dec/2021 20:08:21] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:22,131 INFO 127.0.0.1 - - [22/Dec/2021 20:08:22] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:28,523 INFO 127.0.0.1 - - [22/Dec/2021 20:08:28] "OPTIONS /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:28,695 INFO 127.0.0.1 - - [22/Dec/2021 20:08:28] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-22 20:08:54,649 INFO 127.0.0.1 - - [22/Dec/2021 20:08:54] "GET /manager HTTP/1.1" 200 -
+2021-12-22 20:09:50,332 INFO 127.0.0.1 - - [22/Dec/2021 20:09:50] "OPTIONS /manager/41 HTTP/1.1" 200 -
+2021-12-22 20:09:50,467 INFO 127.0.0.1 - - [22/Dec/2021 20:09:50] "PATCH /manager/41 HTTP/1.1" 200 -
+2021-12-22 21:37:38,650 INFO 127.0.0.1 - - [22/Dec/2021 21:37:38] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 21:38:02,273 INFO 127.0.0.1 - - [22/Dec/2021 21:38:02] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-22 21:38:02,384 INFO 127.0.0.1 - - [22/Dec/2021 21:38:02] "POST /login HTTP/1.1" 200 -
+2021-12-22 21:38:02,598 INFO 127.0.0.1 - - [22/Dec/2021 21:38:02] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 21:38:52,400 INFO 127.0.0.1 - - [22/Dec/2021 21:38:52] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 21:39:21,615 INFO 127.0.0.1 - - [22/Dec/2021 21:39:21] "OPTIONS /manager_login HTTP/1.1" 200 -
+2021-12-22 21:39:50,772 INFO 127.0.0.1 - - [22/Dec/2021 21:39:50] "GET /manager HTTP/1.1" 200 -
+2021-12-22 21:40:24,215 INFO 127.0.0.1 - - [22/Dec/2021 21:40:24] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 21:40:27,373 INFO 127.0.0.1 - - [22/Dec/2021 21:40:27] "OPTIONS /employee HTTP/1.1" 200 -
+2021-12-22 21:40:28,630 INFO 127.0.0.1 - - [22/Dec/2021 21:40:28] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 21:41:05,163 INFO 127.0.0.1 - - [22/Dec/2021 21:41:05] "OPTIONS /manager/40 HTTP/1.1" 200 -
+2021-12-22 21:41:05,493 INFO 127.0.0.1 - - [22/Dec/2021 21:41:05] "GET /manager HTTP/1.1" 200 -
+2021-12-22 21:42:10,077 INFO 127.0.0.1 - - [22/Dec/2021 21:42:10] "OPTIONS /employee HTTP/1.1" 200 -
+2021-12-22 21:42:10,212 INFO 127.0.0.1 - - [22/Dec/2021 21:42:10] "POST /employee HTTP/1.1" 200 -
+2021-12-22 21:42:13,988 INFO 127.0.0.1 - - [22/Dec/2021 21:42:13] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-22 21:42:39,756 INFO 127.0.0.1 - - [22/Dec/2021 21:42:39] "OPTIONS /manager_login HTTP/1.1" 200 -
+2021-12-22 21:42:39,806 INFO 127.0.0.1 - - [22/Dec/2021 21:42:39] "POST /manager_login HTTP/1.1" 200 -
+2021-12-22 21:42:39,992 INFO 127.0.0.1 - - [22/Dec/2021 21:42:39] "GET /manager HTTP/1.1" 200 -
+2021-12-22 21:43:21,580 INFO 127.0.0.1 - - [22/Dec/2021 21:43:21] "OPTIONS /manager/40 HTTP/1.1" 200 -
+2021-12-22 21:43:21,914 INFO 127.0.0.1 - - [22/Dec/2021 21:43:21] "PATCH /manager/40 HTTP/1.1" 200 -
+2021-12-22 21:43:23,799 INFO 127.0.0.1 - - [22/Dec/2021 21:43:23] "GET /manager HTTP/1.1" 200 -
+2021-12-23 09:44:46,244 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-23 09:44:50,199 INFO 127.0.0.1 - - [23/Dec/2021 09:44:50] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:44:56,354 INFO 127.0.0.1 - - [23/Dec/2021 09:44:56] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:05,479 INFO 127.0.0.1 - - [23/Dec/2021 09:45:05] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:07,899 INFO 127.0.0.1 - - [23/Dec/2021 09:45:07] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:20,294 INFO 127.0.0.1 - - [23/Dec/2021 09:45:20] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:23,612 INFO 127.0.0.1 - - [23/Dec/2021 09:45:23] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:32,878 INFO 127.0.0.1 - - [23/Dec/2021 09:45:32] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:38,857 INFO 127.0.0.1 - - [23/Dec/2021 09:45:38] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:40,033 INFO 127.0.0.1 - - [23/Dec/2021 09:45:40] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:45:48,155 INFO 127.0.0.1 - - [23/Dec/2021 09:45:48] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:47:45,407 INFO 127.0.0.1 - - [23/Dec/2021 09:47:45] "OPTIONS /login HTTP/1.1" 200 -
+2021-12-23 09:47:45,499 INFO 127.0.0.1 - - [23/Dec/2021 09:47:45] "POST /login HTTP/1.1" 200 -
+2021-12-23 09:47:45,647 INFO 127.0.0.1 - - [23/Dec/2021 09:47:45] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-23 09:48:07,030 INFO 127.0.0.1 - - [23/Dec/2021 09:48:07] "OPTIONS /employee HTTP/1.1" 200 -
+2021-12-23 09:48:07,171 INFO 127.0.0.1 - - [23/Dec/2021 09:48:07] "POST /employee HTTP/1.1" 200 -
+2021-12-23 09:48:10,796 INFO 127.0.0.1 - - [23/Dec/2021 09:48:10] "GET /employee/323 HTTP/1.1" 200 -
+2021-12-23 09:48:27,294 INFO 127.0.0.1 - - [23/Dec/2021 09:48:27] "OPTIONS /manager_login HTTP/1.1" 200 -
+2021-12-23 09:48:27,340 INFO 127.0.0.1 - - [23/Dec/2021 09:48:27] "POST /manager_login HTTP/1.1" 200 -
+2021-12-23 09:48:27,482 INFO 127.0.0.1 - - [23/Dec/2021 09:48:27] "GET /manager HTTP/1.1" 200 -
+2021-12-23 09:49:00,487 INFO 127.0.0.1 - - [23/Dec/2021 09:49:00] "OPTIONS /manager/40 HTTP/1.1" 200 -
+2021-12-23 09:49:00,705 INFO 127.0.0.1 - - [23/Dec/2021 09:49:00] "PATCH /manager/40 HTTP/1.1" 200 -
+2021-12-23 09:49:43,156 INFO 127.0.0.1 - - [23/Dec/2021 09:49:43] "OPTIONS /manager/40 HTTP/1.1" 200 -
+2021-12-23 09:49:43,327 INFO 127.0.0.1 - - [23/Dec/2021 09:49:43] "PATCH /manager/40 HTTP/1.1" 200 -
+2021-12-23 09:50:51,985 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-23 09:51:18,960 INFO 127.0.0.1 - - [23/Dec/2021 09:51:18] "PATCH /manager/10 HTTP/1.1" 200 -
+2021-12-23 09:51:50,005 INFO 127.0.0.1 - - [23/Dec/2021 09:51:50] "PATCH /manager/66 HTTP/1.1" 200 -
+2021-12-23 09:52:17,985 INFO 127.0.0.1 - - [23/Dec/2021 09:52:17] "OPTIONS /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:52:18,156 INFO 127.0.0.1 - - [23/Dec/2021 09:52:18] "PATCH /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:53:13,785 INFO 127.0.0.1 - - [23/Dec/2021 09:53:13] "OPTIONS /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:53:13,968 INFO 127.0.0.1 - - [23/Dec/2021 09:53:13] "PATCH /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:53:32,180 INFO 127.0.0.1 - - [23/Dec/2021 09:53:32] "OPTIONS /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:53:32,350 INFO 127.0.0.1 - - [23/Dec/2021 09:53:32] "PATCH /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:54:35,254 INFO 127.0.0.1 - - [23/Dec/2021 09:54:35] "OPTIONS /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:54:35,500 INFO 127.0.0.1 - - [23/Dec/2021 09:54:35] "PATCH /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:54:56,542 INFO 127.0.0.1 - - [23/Dec/2021 09:54:56] "OPTIONS /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:54:56,726 INFO 127.0.0.1 - - [23/Dec/2021 09:54:56] "PATCH /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:55:16,841 INFO 127.0.0.1 - - [23/Dec/2021 09:55:16] "OPTIONS /manager/61 HTTP/1.1" 200 -
+2021-12-23 09:55:17,024 INFO 127.0.0.1 - - [23/Dec/2021 09:55:17] "PATCH /manager/61 HTTP/1.1" 200 -

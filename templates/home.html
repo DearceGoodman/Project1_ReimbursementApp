@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<body>
+    <h1>Welcome To Ivel Workforce Portal</h1>
+    <div id="navigation">
+        <ul>
+          <li><button id="managerLogin" type="button" onclick="managerLogin()">Manager Login Portal</button></li>
+          <li><button id="employeeLogin" type="button" onclick="employeeLogin()">Employee Login Portal</button></li>
+        </ul>
+      </div>
+    
+</body>
+
+<script>
+    const input = document.getElementById("input");
+
+    async function managerLogin(){
+        sessionStorage.clear()
+        window.location.href = "manager_login.html"
+    }
+    async function employeeLogin(){
+        sessionStorage.clear()
+        window.location.href = "login.html"
+    }
+</script>
+</html>

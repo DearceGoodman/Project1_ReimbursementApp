@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approval Page</title>
+</head>
+<body>
+    <h2 class="title">Reimbursement Request</h2>
+                    <form method="PATCH">
+                        <div class="managerInput">
+                            <input  name="firstName" id="firstName" placeholder="null" >
+                        </div>
+                        <div class="managerInput">
+                            <input  name="lastName" id="lastName" placeholder="null" >
+                        </div>
+                        <div class="managerInput">
+                            <input  name="employeeId" id="employeeId" placeholder="null" >
+                        </div>
+                        <div class="managerInput">
+                            <input  name="requestAmount" id="requestAmount" placeholder="null" >
+                        </div>
+                        <div class="managerInput">
+                            <input  name="employeeComment" id="employeeComment" placeholder="null" >
+                        </div>
+                        <div class="managerInput">
+                            <h3>Enter Request Ticket</h3>
+                            <input  name="requestTicket" id="requestTicket" placeholder="null" >
+                        </div>
+                        <div class="managerInput">
+                            <h3>Request Status Decision</h3>
+                            <input  name="requestStatus" id="requestStatus" placeholder="approve or deny" >
+                        </div>
+                        <div class="managerInput">
+                            <h3>Enter Manager's Comments</h3>
+                            <input  type="text" name="managerComment" maxlength="150" id="managerComment" placeholder="manager comment" >
+                        </div>
+                        <div class="managerDecision">
+                            <button type="button" id="approvalDenyButton" onclick="submitApproval()">Submit</button>
+                        </div>
+                        <div class="transfer">
+                            <button type="button" id="transferToMgrDashboard" onclick="transferMgr()">Back To Manager Dashboard</button>
+                        </div>
+                    </form>
+<script src="js/reimbursementApproval.js"></script>
+<script>
+    async function transferMgr(){
+    sessionStorage.clear()
+    window.location.href = "manager_dashboard.html"
+    }
+
+</script>
+</body>
+</html>

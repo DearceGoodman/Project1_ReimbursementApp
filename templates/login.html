@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <label>EMPLOYEE USERNAME</label><br>
+    <input name="username" type="text" id="usernameInput" placeholder="write you username"><br>
+    <label>PASSWORD</label><br>
+    <input name="password" type="password" id="passwordInput" placeholder="write your password"><br>
+    <button id="loginButton" onclick="login()">login</button>
+    <!-- <script src="../templates/js/login.js"></script> -->
+</body>
+<script>
+    const username = document.getElementById("usernameInput")
+const password = document.getElementById("passwordInput")
+
+async function login(){
+    let response = await fetch(
+        "http://127.0.0.1:5000/login",{
+            method:"POST",
+            headers:{"Content-Type": "application/json"},
+            body: JSON.stringify({"username":username.value, "password":password.value})
+        }
+       )
+    if(response.status === 200){
+        let body = await response.json()
+        if (body["validated"]){
+            sessionStorage.setItem("validated", true)
+            window.location.href="employee_dashboard.html"
+        }else{
+            alert("login failed: please try again")
+        }
+    }else{
+        alert("the request failed")
+    } 
+}
+</script>
+</html>
