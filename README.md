@@ -23,4 +23,8 @@ Add profile picture option
 
 Improve the CSS of the webpage
 
+Usage
+To utilize this app you need to set the SQL values to the relative fields in the Entity class, afterward set you environmental variable related to you database to make use of this application
+
+
 
