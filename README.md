@@ -4,9 +4,10 @@ In this appication I create a simple reimbursement program to aid companies in t
 
 Technologies Used
 Python - version 3.10
-Visual Studio Code(Html CSS) - version 1.63
+Visual Studio Code(Html CSS Javascript) - version 1.63
 Dbeaver(Postgres SQL) - version 21.3.2
 AWS RDS
+Gherkin
 
 Features
 List of features ready and TODOs for future development
